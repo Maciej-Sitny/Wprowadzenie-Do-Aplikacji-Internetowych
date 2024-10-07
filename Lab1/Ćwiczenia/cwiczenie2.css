@@ -1,0 +1,9 @@
+body {
+    background-color: lightblue;
+  }
+table, th, td {
+    border: 3px solid;
+    border-color: brown;
+    
+    border-collapse: collapse;
+}
