@@ -1,0 +1,53 @@
+html {
+    min-height: 100vh;
+}
+
+body {
+    background-color: black;
+    color:blanchedalmond;
+    height: 100vh;
+}
+
+/* NAV */
+
+nav {
+    width: 95vw;
+    height: 3.5vh;
+    background-color:darkslategrey;
+    display: flex;
+    flex-wrap: nowrap;
+    font-size: 1.7rem;
+    justify-content: flex-end;
+    gap:1.5em;
+    padding: 2%;
+}
+.nav_link{
+    text-decoration: none;
+    font-weight: 500;
+    color: blanchedalmond;
+}
+
+/* KONIEC NAV */
+
+
+
+h1 {
+    font-weight: 800;
+}
+
+#carti{
+    text-align: right;
+}
+
+/* MAIN */
+
+#main{
+    height:85vh;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+#main.div {
+    width:93%;
+}
