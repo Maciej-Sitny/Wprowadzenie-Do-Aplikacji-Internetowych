@@ -1,34 +1,35 @@
-html {
-    min-height: 100vh;
-}
+
 
 body {
     background-color: black;
-    color:blanchedalmond;
-    height: 100vh;
+    color:#eae0d5;
+    /* height: 100vh; */
     /* display: flex;
     flex-direction: column;
     align-items: center;
     gap: 1em; */
+    /* padding: 0; */
 }
 
 /* NAV */
 
 nav {
-    width: 95vw;
+    width: 93.5vw;
     height: 3.5vh;
-    background-color:darkslategrey;
+    background: rgb(47,79,79);
+background: linear-gradient(180deg, rgba(47,79,79,1) 45%, rgba(0,0,0,1) 95%, rgba(0,0,0,1) 98%);
     display: flex;
     flex-wrap: nowrap;
     font-size: 1.7rem;
     justify-content: flex-end;
     gap:1.5em;
     padding: 2%;
+    /* margin-bottom: 1vh; */
 }
 .nav_link{
     text-decoration: none;
     font-weight: 500;
-    color: blanchedalmond;
+    color: #eae0d5;
 }
 
 /* KONIEC NAV */
@@ -62,7 +63,7 @@ img {
     background-image: url(main_background.png);
     background-size: 100%;
     background-repeat: no-repeat;
-    
+    margin: 0;
     
 }
 
@@ -73,5 +74,107 @@ img {
 }
 
 #main_travis, #main_and, #main_carti{
+    font-size: 3rem;
+}
+
+/* MAIN2 */
+
+#main2 {
+    padding: 10%;
+    padding-top: 5%;
+}
+
+
+/* TIMER */
+
+#timer_div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+#timer_title {
+    font-size: 5em;
+    text-align: center;
+    margin: 0;
+    text-shadow: 4px 12px 15px rgba(234, 224, 213, 1);
+}
+
+#timer{
+    font-size: 5em;
+    margin-bottom: 10vh;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+#ticket_button{
+    font-size: 5em;
+    margin-top: 0;
+    margin-bottom: 3%;
+    background-color: #eae0d5;
+    color:black;
+    border: #2f4f4f solid 5px;
+}
+
+/* TRAVIS */
+
+#main2_travis, #main2_playboi{
+    display: flex;
+    align-items: center;
+    padding: 2%;
+    border-radius: 10px;
+}
+
+#main2_travis {
+    background: rgb(47,79,79);
+background: linear-gradient(90deg, rgba(47,79,79,1) 48%, rgba(0,0,0,1) 79%, rgba(0,0,0,1) 94%);
+box-shadow: 8px 8px 20px -5px rgba(234, 224, 213, 1);
+margin-bottom: 3vh;
+padding-bottom: 0;
+padding-top: 2em;
+}
+
+#main2_playboi {
+    background: rgb(47,79,79);
+background: linear-gradient(270deg, rgba(47,79,79,1) 48%, rgba(0,0,0,1) 73%, rgba(0,0,0,1) 94%);
+box-shadow: -8px 8px 20px -5px rgba(234, 224, 213, 1);
+padding-bottom: 0;
+padding-top: 1em;
+}
+
+#travis_left_title{
     font-size: 4em;
+    margin: 0;
+}
+
+#travis_left_desc{
+    font-size: 1.5em;
+}
+
+#travis_image {
+    width: 30vw;
+    height: 30vh;
+    z-index: 2;
+    margin-left: 1vw;
+}
+
+#playboi_image{
+    width:17vw;
+    z-index: 2;
+}
+
+#playboi_left{
+    text-align: right;
+}
+
+/* FOOTER */
+
+footer {
+    height: 13vh;
+    width: 100%;
+    background-color:rgb(47,79,79) ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }

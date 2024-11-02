@@ -1,0 +1,92 @@
+body {
+    background-color: black;
+    color:#eae0d5;
+}
+
+
+nav {
+    width: 93.5vw;
+    height: 3.5vh;
+    background: rgb(47,79,79);
+background: linear-gradient(180deg, rgba(47,79,79,1) 45%, rgba(0,0,0,1) 95%, rgba(0,0,0,1) 98%);
+    display: flex;
+    flex-wrap: nowrap;
+    font-size: 1.7rem;
+    justify-content: flex-end;
+    gap:1.5em;
+    padding: 2%;
+    /* margin-bottom: 1vh; */
+}
+.nav_link{
+    text-decoration: none;
+    font-weight: 500;
+    color: #eae0d5;
+}
+
+
+/* MAIN */
+#main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#a{
+    background-image: url(travis_koncert.jpg);
+    width: 100%;
+    height: 90vh;
+    background-size:cover;
+    display: flex;
+    justify-content: center;
+    font-size: 8em;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    gap:43vh;
+    /* padding:10%; */
+}
+
+#b{
+    display: flex;
+    font-size: 50%;
+    justify-content: left;
+    gap:40vw;
+    text-shadow: 4px 12px 20px rgba(234, 224, 213, 1);
+    /* padding-bottom: 30; */
+}
+
+#b.p{
+    text-shadow: 4px 12px 15px rgba(234, 224, 213, 1);
+}
+
+#title{
+ margin: 0;
+ padding: 0;
+}
+
+img {
+    width: auto;
+    height: 65vh;
+}
+
+
+#desc{
+    width: 60vw;
+    font-size: 2em;
+    text-align: center;
+}
+
+
+/* FOOTER */
+
+footer {
+    height: 13vh;
+    width: 100%;
+    background-color:rgb(47,79,79) ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
