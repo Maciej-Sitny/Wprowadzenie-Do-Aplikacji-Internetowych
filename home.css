@@ -58,7 +58,7 @@ img {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: url(/Projekt1/main_background.png);
+    background-image: url(main_background.png);
     background-size: 100%;
     background-repeat: no-repeat;
     margin: 0;
