@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="tickets.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
+    <title>Home</title>
+    <script src="tickets.js"></script>
+</head>
+<body>
+    <nav>
+        <a class="nav_link" href="travis.html">Travis Scott</a>
+        <a class="nav_link" href="carti.html">Playboi Carti</a>
+        <a class="nav_link" href="tickets.html">Bilety</a>
+        <a class="nav_link" href="galeria.html">Galeria</a>
+        <a class="nav_link" href="regulamin.html">Regulamin</a>
+    </nav>
+    
+    <div id="main">
+        <img id="plan_ogolny" src="plan_ogolny.jpg">
+
+        <form id="formularz">
+            <label for="fname">Imię:</label><br>
+            <input type="text" id="fname" name="fname" placeholder="Twoje imię" required><br>
+            <label for="lname">Nazwisko:</label><br>
+            <input type="text" id="lname" name="lname" placeholder="Twoje nazwisko" required><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" placeholder="Twój email" required><br>
+            <label for="cars">Wybierz sektor:</label>
+            <select name="sektor" id="sektor" onchange=updateNumerSektora() required>
+                <option value="">-- Wybierz --</option>
+                <option value="A">A</option>
+                <option value="B">B</option>
+                <option value="C">C</option>
+            </select> <br>
+            <label for="numerSektora">Wybierz numer sektora:</label>
+            <select id="numerSektora" name="numerSektora" required>
+                <option value="">-- Wybierz --</option>
+            
+            </select><br>
+            <label>Liczba biletów:</label>
+            <select id="liczba_biletow"> 
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+            </select> <br>
+            <input type="submit"  id="wyslij" value="Wyślij" onclick=wyslij()>
+        </form>
+    </div>
+
+
+    <footer>
+        <h1>Maciej Sitny</h1>
+    </footer>
+</body>
