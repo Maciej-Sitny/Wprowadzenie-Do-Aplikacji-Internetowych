@@ -25,7 +25,7 @@ function start(){
             timer.innerHTML = seconds + "s ";
         }
         else {
-            timer.innerHTML = minutes + "m"+ seconds + "s ";
+            timer.innerHTML = minutes + "m "+ seconds + "s ";
         }
     },1000);
     reset.addEventListener("click", function(){
