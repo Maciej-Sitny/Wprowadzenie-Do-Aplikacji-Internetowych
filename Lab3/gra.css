@@ -1,0 +1,14 @@
+body{
+    cursor: url('./images/imageedit_3_9479971778.png'), auto;
+}
+
+canvas {
+    width: 91%;
+    height: 90%;
+    border: 1px solid black;
+    background-image: url("./images/board-bg.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}

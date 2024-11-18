@@ -12,14 +12,14 @@ async function fetchData() {
         displayProducts(data)
         originalData = [...data];
     } catch (error) {
-        console.error("Wystąpił błąd podczas pobierania danych:", error);
+        console.error("Błąd przy jsonie", error);
     }
 }
 
 function displayProducts(data) {
 
     const table = document.getElementById('tabela');
-    table.innerHTML = '';
+    table.innerHTML = ''; //kasowanie dotychczasowych pozycji w tabeli
     for (let i = 0; i < 30 && i<data.length; i++) {
         const row = document.createElement('tr');
         let imgTd = document.createElement('td');
