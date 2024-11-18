@@ -52,7 +52,6 @@ function generate() {
 
     for (let i = 0; i < length; i++) {
         let ascii_code;
-
         if (capital && special) {
             ascii_code = Math.floor(Math.random() * (126 - 33) + 33); 
         } 
@@ -61,7 +60,8 @@ function generate() {
             const whichRange = Math.random() < 0.5;
             if (whichRange) {
                 ascii_code = Math.floor(Math.random() * (91 - 65) + 65); 
-            } else {
+            }
+            else {
                 ascii_code = Math.floor(Math.random() * (123 - 97) + 97);
             }
         } 
@@ -70,18 +70,15 @@ function generate() {
             const whichRange = Math.random() < 0.5;
             if (whichRange) {
                 ascii_code = Math.floor(Math.random() * (48 - 33) + 33);; 
-            } else {
+            }
+            else {
                 ascii_code = Math.floor(Math.random() * (123 - 97) + 97);
             }
-             
-        } 
-
+        }
         else {
             ascii_code = Math.floor(Math.random() * (123 - 97) + 97); 
         }
-
         password += String.fromCharCode(ascii_code);
     }
-
     alert(password);
 }

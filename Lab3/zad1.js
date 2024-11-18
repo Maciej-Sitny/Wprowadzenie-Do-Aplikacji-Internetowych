@@ -1,15 +1,4 @@
 
-// let x = setInterval(function() {
-//     let click =start()
-// let now =new Date().getTime();
-//         distance=now-click
-//         let minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-//         let seconds = Math.floor((distance % (1000 * 60)) / 1000);
-
-//         timer.innerHTML = minutes + "m " + seconds + "s ";
-// },1000)
-
-
 function start(){
     let timer =document.getElementById("timer")
     let click=new Date().getTime();
