@@ -8,6 +8,18 @@
     <link rel="stylesheet" href="zad3.css">
 </head>
 <body>
+    <header>
+        <input
+                type="text"
+                id="search"
+                placeholder="Wyszukaj produkt po nazwie..."
+                oninput="filterProducts()"
+        />
+        <button onclick="sortProducts('asc')">Rosnąco</button>
+        <button onclick="sortProducts('desc')">Malejąco</button>
+        <button onclick="sortProducts('original')">Oryginalnie</button>
+    </header>
+
     <table id="tabela">
         <tr>
             <th>Zdjęcie</th>
