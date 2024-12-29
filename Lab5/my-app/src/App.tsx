@@ -5,6 +5,10 @@ import Koszyk from './components/koszyk/Koszyk';
 import NowyKoszyk from './components/koszyk/NowyKoszyk';
 import Licznik from "./components/liczniki/Licznik";
 import NowyLicznik from "./components/liczniki/NowyLicznik";
+import Formularze from "./components/formularze/Formularze";
+import Haslo from "./components/formularze/Haslo";
+import Logowanie from "./components/formularze/Logowanie";
+
 function App() {
   return (
     <div className="App">
@@ -25,6 +29,8 @@ function App() {
 
         <NowyKoszyk/>
         <NowyLicznik/>
+        <Formularze/>
+        <Logowanie/>
     </div>
   );
 }
