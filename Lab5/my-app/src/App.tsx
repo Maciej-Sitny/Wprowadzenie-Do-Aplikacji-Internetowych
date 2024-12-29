@@ -3,7 +3,7 @@ import React from 'react';
 import './App.css';
 import Koszyk from './components/koszyk/Koszyk';
 import NowyKoszyk from './components/koszyk/NowyKoszyk';
-import Licznik from "./components/liczniki/Licznik";
+// import Licznik from "./components/liczniki/Licznik";
 import NowyLicznik from "./components/liczniki/NowyLicznik";
 import Formularze from "./components/formularze/Formularze";
 import Haslo from "./components/formularze/Haslo";
@@ -12,6 +12,11 @@ import Ternary from "./components/inne/Ternary";
 import Aktualizacja from "./components/inne/Aktualizacja";
 import Studenci from "./components/studenci/Studenci";
 import StudentManager from "./components/studenci/StudentManager";
+import Licznik from "./components/efekty/Licznik";
+import Tytul from "./components/efekty/Tytul";
+import Odliczanie from "./components/efekty/Odliczanie";
+import Komentarz from "./components/produkty/Komentarz";
+
 
 function App() {
   return (
@@ -39,6 +44,10 @@ function App() {
         <Aktualizacja/>
         {/*<Studenci/>*/}
         <StudentManager/>
+        <Licznik/>
+        <Tytul/>
+        <Odliczanie/>
+        <Komentarz/>
     </div>
   );
 }
