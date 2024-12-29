@@ -8,7 +8,8 @@ import NowyLicznik from "./components/liczniki/NowyLicznik";
 import Formularze from "./components/formularze/Formularze";
 import Haslo from "./components/formularze/Haslo";
 import Logowanie from "./components/formularze/Logowanie";
-
+import Ternary from "./components/inne/Ternary";
+import Aktualizacja from "./components/inne/Aktualizacja";
 function App() {
   return (
     <div className="App">
@@ -31,6 +32,8 @@ function App() {
         <NowyLicznik/>
         <Formularze/>
         <Logowanie/>
+        <Ternary/>
+        <Aktualizacja/>
     </div>
   );
 }
