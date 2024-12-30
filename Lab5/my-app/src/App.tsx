@@ -12,7 +12,7 @@ import Ternary from "./components/inne/Ternary";
 import Aktualizacja from "./components/inne/Aktualizacja";
 import Studenci from "./components/studenci/Studenci";
 import StudentManager from "./components/studenci/StudentManager";
-import Licznik from "./components/efekty/Licznik";
+import Licznik  from "./components/efekty/Licznik" ;
 import Tytul from "./components/efekty/Tytul";
 import Odliczanie from "./components/efekty/Odliczanie";
 import Komentarze from "./components/produkty/Komentarze";
@@ -21,20 +21,7 @@ import Komentarze from "./components/produkty/Komentarze";
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        {/*<img src={logo} className="App-logo" alt="logo" />*/}
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+
         <h1>Zadanie 1</h1>
         <NowyKoszyk/>
         <h1>Zadanie 2</h1>
