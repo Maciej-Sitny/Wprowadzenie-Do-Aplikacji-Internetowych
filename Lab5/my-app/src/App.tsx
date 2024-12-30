@@ -15,7 +15,7 @@ import StudentManager from "./components/studenci/StudentManager";
 import Licznik from "./components/efekty/Licznik";
 import Tytul from "./components/efekty/Tytul";
 import Odliczanie from "./components/efekty/Odliczanie";
-import Komentarz from "./components/produkty/Komentarz";
+import Komentarze from "./components/produkty/Komentarze";
 
 
 function App() {
@@ -35,19 +35,25 @@ function App() {
           Learn React
         </a>
       </header>
-
+        <h1>Zadanie 1</h1>
         <NowyKoszyk/>
+        <h1>Zadanie 2</h1>
         <NowyLicznik/>
+        <h1>Zadanie 3</h1>
         <Formularze/>
         <Logowanie/>
+        <h1>Zadanie 4</h1>
         <Ternary/>
         <Aktualizacja/>
+        <h1>Zadanie 5</h1>
         {/*<Studenci/>*/}
         <StudentManager/>
+        <h1>Zadanie 6</h1>
         <Licznik/>
         <Tytul/>
         <Odliczanie/>
-        <Komentarz/>
+        <h1>Zadanie 7</h1>
+        <Komentarze/>
     </div>
   );
 }

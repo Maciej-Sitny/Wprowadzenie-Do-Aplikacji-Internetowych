@@ -13,7 +13,7 @@ function StudentManager(){
         {name: "Piotr", surname: "Wiśniewski", year: 1992}
     ]);
     return (
-        <div>
+        <div style={{display:"flex", justifyContent:"center", alignItems:"center"}}>
             <table>
                 <thead>
                 <tr>
